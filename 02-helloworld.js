@@ -31,5 +31,4 @@ const server = http.createServer((req, res)=> {
     }
 })
 
-server.listen(port, ()=>console.log(`server started on port ${port}; ` +
-'서버를 끝내려면 Ctrl-C를 누르세요...'))
+server.listen(port, ()=>console.log(`server started on port ${port}; ` 
